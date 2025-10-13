@@ -69,21 +69,23 @@
                         <tbody>
                             <tr>
                                 <td>
-                                    <strong>Objetivos:</strong>
-                                    <ul>
-                                        <li>Que los estudiantes, trabajando en equipo, construyan un chasis básico para su robot deportivo utilizando las piezas del Nezha Pro Sports Kit, implementen el plan generado en la sesión anterior, y prueben/ajusten el movimiento básico de su robot.</li>
-                                    </ul>
+                                    <strong>Objetivos de aprendizaje PLAYBOOK:</strong>
+                                    <ol>
+                                        <li>Programar los movimientos del robot: avanzar, retroceder y girar.</li>
+                                        <li>Probar el código y ajustar (depurar) la velocidad y dirección de los motores.</li>
+                                    </ol>
+                                    Objetivo General de la Sesión: Que los estudiantes Programen una secuencia de movimientos básicos, aprendiendo a probar y corregir su funcionamiento.
                                     <strong>Secuencia de Clase:</strong>
                                     <ul>
                                         <li><strong class="tactic-highlight">⚡Saludo Interactivo con IA:</strong> Activación y personalización de la IA.</li>
                                         <li><strong class="tactic-highlight">⚡"I Can Statement" + Ejemplificación:</strong> Clarificar objetivos y mostrar posibilidades.</li>
-                                        <li><strong class="tactic-highlight">⚡AI GYM:</strong> Refrescar el plan y dar consejos de construcción.</li>
-                                        <li><strong class="tactic-highlight">⚡Brain Spark:</strong> Construcción física, implementación del plan y pruebas.</li>
+                                        <li><strong class="tactic-highlight">⚡AI GYM:</strong> Refrescar el plan y dar consejos de programación.</li>
+                                        <li><strong class="tactic-highlight">⚡Brain Spark:</strong> Programación, prueba y depuración del código.</li>
                                         <li><strong class="tactic-highlight">⚡Gnius STORM:</strong> Demostración de prototipos y retroalimentación.</li>
                                     </ul>
                                     <strong>Entregable Clave:</strong>
                                     <ul>
-                                        <li>Un chasis de robot básico construido con el Nezha Pro Sports Kit, programado para realizar movimientos básicos con sus ruedas, según el plan de la Sesión 1A.</li>
+                                        <li>El código para el movimiento básico (avance, detención y posiblemente giros) del robot, probado y depurado, usando el chasis que se ensambló en la Sesión 3A.</li>
                                     </ul>
                                 </td>
                                 <td>
@@ -94,7 +96,7 @@
                                         <li>Acceso a MakeCode (<a href="https://makecode.microbit.org/" target="_blank">https://makecode.microbit.org/</a>).</li>
                                         <li>Chat "Agente Gnius" (Xolo) activo y funcionando.</li>
                                         <li>Presentación de diapositivas (Diapositivas 1-10).</li>
-                                        <li>1 Nezha Pro Sports Kit por equipo de 4 estudiantes.</li>
+                                        <li>1 Nezha Pro Sports Kit (ensamblado de la sesión anterior) por equipo de 4 estudiantes.</li>
                                         <li>Computadoras o tabletas para programar.</li>
                                     </ul>
                                     <strong>Preparación Previa para ESTA Sesión:</strong>
@@ -102,9 +104,9 @@
                                         <li><strong>Revisión de Misión (Interna):</strong>
                                             <ul>
                                                 <li>Verificar conexión a internet y funcionamiento de MakeCode.</li>
-                                                <li>Tener los kits Nezha Pro Sports listos y organizados.</li>
+                                                <li>Tener los kits Nezha Pro Sports (chasis base) listos y organizados.</li>
                                                 <li>Tener la presentación de diapositivas (1-10) lista y en orden.</li>
-                                                <li>Preparar imágenes de ensambles básicos de chasis para proyectar.</li>
+                                                <li>Preparar ejemplos de código de movimiento básico para proyectar.</li>
                                                 <li>Asegurarse de que los estudiantes tengan una forma de guardar su trabajo en MakeCode, ya sea a través de cuentas o descargando los archivos .hex.</li>
                                             </ul>
                                         </li>
@@ -142,7 +144,7 @@
                         <div class="collapsible">
                             <button type="button" class="collapsible-button">Diálogo Sugerido</button>
                             <div class="collapsible-content">
-                                <p class="dialogue assistant">¡Fantástico! Veo que Xolo ya les está respondiendo y está listo para esta aventura de construcción. Si alguien no ha recibido respuesta de Xolo, levante la mano para ayudarle.</p>
+                                <p class="dialogue assistant">¡Fantástico! Veo que Xolo ya les está respondiendo y está listo para esta aventura de programación. Si alguien no ha recibido respuesta de Xolo, levante la mano para ayudarle.</p>
                             </div>
                         </div>
                     </div>
@@ -151,7 +153,7 @@
 
             <div class="activity-card" id="activity-2">
                 <h2>⚡ Actividad 2: I Can Statement + Ejemplificación ⏰ 5 minutos</h2>
-                <p>Presentar el objetivo de la clase y mostrar ejemplos visuales de construcción.</p>
+                <p>Presentar el objetivo de la clase y mostrar ejemplos visuales de programación.</p>
                 <div class="steps">
                     <div class="step-card">
                         <div class="step-content">
@@ -161,7 +163,7 @@
                         <div class="collapsible">
                             <button type="button" class="collapsible-button">Diálogo Sugerido</button>
                             <div class="collapsible-content">
-                                <p class="dialogue assistant">¡Equipos, es hora de la acción! Recordarán que la clase pasada diseñaron un robot simple con ruedas y pensaron en cómo se movería. Hoy, van a tomar esas ideas y construir la base de su robot con el Nezha Pro Sports Kit.</p>
+                                <p class="dialogue assistant">¡Equipos, es hora de la acción! Recordarán que la clase pasada ensamblaron el chasis base de su robot. Hoy, van a usar el robot base que ensamblaron la clase pasada. Van a concentrarse en programar el movimiento básico y en depurar cualquier error en el código para que su robot se mueva exactamente como lo diseñaron.</p>
                             </div>
                         </div>
                     </div>
@@ -173,19 +175,19 @@
                         <div class="collapsible">
                             <button type="button" class="collapsible-button">Diálogo Sugerido</button>
                             <div class="collapsible-content">
-                                <p class="dialogue assistant">Luego, con la ayuda de Xolo para el código, van a programar esos primeros movimientos. Al final de la clase, podrán decir: <strong>'Mi equipo construyó un robot Nezha básico y logramos que se mueva como lo planeamos usando nuestro plan.'</strong></p>
+                                <p class="dialogue assistant">Luego, con la ayuda de Xolo para el código, van a programar esos primeros movimientos. Al final de la clase, podrán decir: <strong>'Mi equipo puede traducir el plan de movimiento básico a código en MakeCode y depurar las instrucciones para que el robot Nezha avance, se detenga y gire correctamente.'</strong></p>
                             </div>
                         </div>
                     </div>
                      <div class="step-card">
                         <div class="step-content">
                             <h3>Paso 3: Inspiración Visual ⏰ 1 minuto</h3>
-                            <p>(Proyectar Diapositiva 4) Mostrar imágenes de chasis básicos para inspirar la construcción.</p>
+                            <p>(Proyectar Diapositiva 4) Mostrar imágenes de código básico de movimiento para inspirar la programación.</p>
                         </div>
                         <div class="collapsible">
                             <button type="button" class="collapsible-button">Diálogo Sugerido</button>
                             <div class="collapsible-content">
-                                <p class="dialogue assistant">Para darles una chispa de inspiración, aquí tienen algunas ideas visuales. Miren estas imágenes... Estas estructuras, que llamamos 'chasis', son como el esqueleto de nuestro robot, donde montaremos los motores y las ruedas.</p>
+                                <p class="dialogue assistant">Para darles una chispa de inspiración, aquí tienen algunas ideas visuales. Miren este código... Así es como se ve el comando de avance y giro en MakeCode.</p>
                             </div>
                         </div>
                     </div>
@@ -194,7 +196,7 @@
 
             <div class="activity-card" id="activity-3">
                 <h2>⚡ Actividad 3: AI GYM ⏰ 7 minutos</h2>
-                <p>Guiar a los alumnos para que refresquen su "idea" con Xolo, reciban su "plan" y consejos de construcción.</p>
+                <p>Guiar a los alumnos para que refresquen su "plan" con Xolo, y reciban consejos de programación y depuración.</p>
                 <div class="steps">
                     <div class="step-card">
                         <div class="step-content">
@@ -204,7 +206,7 @@
                         <div class="collapsible">
                             <button type="button" class="collapsible-button">Diálogo Sugerido</button>
                             <div class="collapsible-content">
-                                <p class="dialogue assistant">¡Muy bien, equipos! Antes de empezar a construir, vamos a refrescar el plan. Escriban en el chat con Xolo y recuérdenle su 'idea' principal. Por ejemplo: <strong>'Hola Xolo, nuestro equipo quiere que el robot avance con A y se detenga con B'</strong>. Xolo les devolverá el plan exacto para lograrlo.</p>
+                                <p class="dialogue assistant">¡Muy bien, equipos! Antes de empezar a programar, vamos a refrescar el plan. Escriban en el chat con Xolo y recuérdenle su 'idea' principal. Por ejemplo: <strong>"Mi perfil es [escribe aquí tu perfil] y quiero que me enseñes corregir los movimientos de mi robot Nezha, como avanzar, retroceder y girar."</strong></p>
                                 <pre class="dialogue assistant" style="color: #d32f2f;">// Plan para: Avanzar con A, Detener con B
 AL INICIO:
     mostrar texto "Listo!"
@@ -225,13 +227,13 @@ POR SIEMPRE:
                     </div>
                     <div class="step-card">
                         <div class="step-content">
-                            <h3>Paso 2: Consejos de Construcción ⏰ 3 minutos</h3>
-                            <p>(Proyectar Diapositiva 6) Compartir consejos conceptuales para el ensamblaje.</p>
+                            <h3>Paso 2: Consejos de Programación y Depuración ⏰ 3 minutos</h3>
+                            <p>(Proyectar Diapositiva 6) Compartir consejos conceptuales para la programación y solución de errores.</p>
                         </div>
                         <div class="collapsible">
                             <button type="button" class="collapsible-button">Diálogo Sugerido</button>
                             <div class="collapsible-content">
-                                <p class="dialogue assistant">¡Excelente! Ya tienen su plan fresco. Ahora, Xolo tiene algunos consejos para la construcción. Recuerden: necesitan una base sólida para los motores, las ruedas deben estar bien sujetas, y la placa Nezha y el Micro:bit deben ir seguros en el chasis. ¡Y no olviden conectar los motores a los puertos M1 y M2!</p>
+                                <p class="dialogue assistant">¡Excelente! Ya tienen su plan fresco. Ahora, Xolo tiene algunos consejos de programación. Recuerden que si el robot se mueve al revés, solo tienen que cambiar la dirección (positivo a negativo) o invertir los motores M1 y M2 en el código. ¡La depuración es la clave!</p>
                             </div>
                         </div>
                     </div>
@@ -240,17 +242,17 @@ POR SIEMPRE:
 
             <div class="activity-card" id="activity-4">
                  <h2>⚡ Actividad 4: Brain Spark ⏰ 20 minutos</h2>
-                <p>Fases de construcción, programación, prueba y depuración del robot.</p>
+                <p>Fases de implementación del plan de movimiento, programación y depuración exhaustiva del código.</p>
                 <div class="steps">
                     <div class="step-card">
                         <div class="step-content">
-                            <h3>Paso 1: Construcción del Chasis ⏰ 10 minutos</h3>
-                            <p>(Proyectar Diapositiva 7) Los equipos ensamblan la estructura física de sus robots.</p>
+                            <h3>Paso 1: Implementación del Plan de Movimiento ⏰ 10 minutos</h3>
+                            <p>(Proyectar Diapositiva 7) Los equipos implementan el plan en MakeCode.</p>
                         </div>
                         <div class="collapsible">
                             <button type="button" class="collapsible-button">Diálogo Sugerido</button>
                             <div class="collapsible-content">
-                                <p class="dialogue assistant">¡Ahora sí, manos a la obra! Tomen sus kits y, usando las imágenes de inspiración y los consejos de Xolo, comiencen a construir la estructura base de su robot. ¡Estaré circulando para ayudarles con la mecánica!</p>
+                                <p class="dialogue assistant">¡Ahora sí, a programar! Tomen sus robots ensamblados de la sesión anterior. Abran MakeCode e implementen el plan de movimiento básico que les dio Xolo. ¡Asegúrense de que los motores M1 y M2 estén conectados!</p>
                             </div>
                         </div>
                     </div>
@@ -268,7 +270,7 @@ POR SIEMPRE:
                         <div class="collapsible">
                             <button type="button" class="collapsible-button">Diálogo Sugerido</button>
                             <div class="collapsible-content">
-                                 <p class="dialogue assistant">¿Ya tienen una estructura funcional? ¡Perfecto! Es momento de darle vida. Abran MakeCode, traduzcan su plan a bloques de programación, descarguen el código a su Micro:bit y... ¡a probar esos motores!</p>
+                                 <p class="dialogue assistant">Ya tienen su código en MakeCode. Es momento de darle vida. ¡Descarguen el código a su Micro:bit y conéctenlo a la placa Nezha para probar esos movimientos!</p>
                             </div>
                         </div>
                     </div>
@@ -294,13 +296,13 @@ POR SIEMPRE:
                     <div class="step-card">
                         <div class="step-content">
                             <h3>Paso 1: Gnius STORM (Think - Individual) ⏰ 1 minuto</h3>
-                            <p>Instrucción para la reflexión individual sobre el proceso de construcción.</p>
+                            <p>Instrucción para la reflexión individual sobre el proceso de programación y depuración.</p>
                         </div>
                         <div class="collapsible">
                             <button type="button" class="collapsible-button">Diálogo Sugerido</button>
                             <div class="collapsible-content">
                                 <p class="dialogue assistant">
-                                     ¡Genial trabajo! Antes de mostrar sus creaciones, piensen un momento: ¿Cuál fue el mayor éxito que tuvieron hoy? ¿Y el mayor desafío que superaron?</p>
+                                     ¡Genial trabajo! Antes de mostrar sus creaciones, piensen un momento: ¿Cuál fue el mayor éxito que tuvieron hoy en la programación? ¿Y el mayor desafío de depuración que superaron?</p>
                             </div>
                         </div>
                     </div>
@@ -313,7 +315,7 @@ POR SIEMPRE:
                             <button type="button" class="collapsible-button">Diálogo Sugerido</button>
                             <div class="collapsible-content">
                                 <p class="dialogue assistant">
-                                    ¡Es hora de la demostración! Cada equipo mostrará brevemente su robot en movimiento. Cuenten a la clase cuál fue su éxito y su desafío. ¡Vamos a ver esas máquinas!
+                                    ¡Es hora de la demostración! Cada equipo mostrará brevemente su robot en movimiento. Cuenten a la clase cuál fue su éxito y su desafío de programación. ¡Vamos a ver esas máquinas!
                                 </p>
                             </div>
                         </div>
@@ -326,7 +328,7 @@ POR SIEMPRE:
                         <div class="collapsible">
                             <button type="button" class="collapsible-button">Diálogo Sugerido</button>
                             <div class="collapsible-content">
-                                <p class="dialogue assistant">¡Increíble trabajo construyendo y programando sus primeros robots Nezha! Ya pueden controlar su movimiento básico. En la próxima unidad, exploraremos cómo añadirle mecanismos más precisos con servomotores. ¡Felicidades a todas y todos!</p>
+                                <p class="dialogue assistant">¡Increíble trabajo programando y depurando sus robots Nezha! Ya pueden controlar su movimiento básico. En la próxima unidad, exploraremos cómo añadirle mecanismos más precisos con servomotores. ¡Felicidades a todas y todos!</p>
                             </div>
                         </div>
                     </div>
@@ -338,4 +340,3 @@ POR SIEMPRE:
     <script src="script.js"></script>
 </body>
 </html>
-
